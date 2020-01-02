@@ -1,0 +1,16 @@
+pip install --upgrade pip
+
+pip install numpy
+pip install matplotlib
+pip install pandas
+pip install xlrd
+pip install sklearn
+pip install scipy
+pip install tensorflow
+
+-- updagre all the packages
+pip freeze > requirements.txt
+pip install -r requirements.txt --upgrade
+
+
+
