@@ -14,4 +14,3 @@ else:
 
 print(x)
 print(answer)
-
