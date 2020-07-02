@@ -12,7 +12,7 @@ counter = 0
 for i in range(N):
     x = randn()
     # if x >= -1 and x <= 1:
-    if -1 <= x <= 1:
+    if -1 <= x <= 1 :
         counter = counter + 1
 answer = counter / N
 print(counter, "of out", N)
